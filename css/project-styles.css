@@ -15,7 +15,7 @@ body {
 .project__title {
   margin: 0 auto;
   padding-top: 1em;
-  color: #382266;
+  color: #100720;
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -30,7 +30,7 @@ body {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-color: #382266;
+  background-color: #100720;
 }
 .project__title__dot--white {
   background-color: #fff;
@@ -73,11 +73,11 @@ body {
 }
 .project__header__btn:hover {
   box-shadow: 0 3px 5px -3px #333,
-              inset 0 -50px 0 0  #382266;
+              inset 0 -50px 0 0  #100720;
   color: #fff;
 }
 .project__header__btn:first-of-type {
-  background-color: #382266;
+  background-color: #100720;
 }
 .project__header__btn:first-of-type.project__header__btn:hover {
   background-color: transparent;
@@ -103,7 +103,7 @@ body {
 }
 .project__flex__item {
   padding: 1em 1.5em;
-  border-bottom: 2px solid #382266;
+  border-bottom: 2px solid #100720;
 }
 .project__flex__item:nth-child(1) {
   -webkit-box-flex: 6;
@@ -119,8 +119,8 @@ body {
   margin: 0 0 0.3em;
   display: inline-block;
   padding: 0 0.8em 0.1em 0;
-  border-bottom: 2px solid #382266;
-  color: #382266;
+  border-bottom: 2px solid #100720;
+  color: #100720;
   font-size: 1.6em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -128,7 +128,7 @@ body {
 .project__flex__text {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  color: #382266;
+  color: #100720;
   font-size: 1.22em;
 }
 .project__flex__skill {
@@ -142,24 +142,24 @@ body {
   color: #fff;
 }
 .project__flex__skill--pink {
-  background-color: #382266;
+  background-color: #100720;
 }
 .project__main__btn {
   width: 160px;
   padding: 5px 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  background-color: #382266;
+  background-color: #100720;
   color: #fff;
   font-size: 1.4em;
   text-align: center;
-  border: 2px solid #382266;
+  border: 2px solid #100720;
   position: absolute;
   transition: all 0.2s linear;
 }
 .project__main__btn:hover {
   background-color: #fff;
-  color: #382266;
+  color: #100720;
 }
 .project__main__btn--previous {
   left: 5.8em;
