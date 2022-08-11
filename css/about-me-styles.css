@@ -181,7 +181,7 @@ body {
 }
 .about-me__skills__middle__name {
   margin: 0;
-  color: #325288;
+  color: #ECE8D9;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -220,7 +220,7 @@ body {
 .about-me__skills__text {
   margin: 1.2em auto 0.8em;
   max-width: 85%;
-  color: #325288;
+  color: #ECE8D9;
   font-size: 1.15em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -235,7 +235,7 @@ body {
   margin: 1em auto 4em;
   padding: 10px;
   background-color: #fff;
-  color: #325288;
+  color: #ECE8D9;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -309,7 +309,7 @@ body {
   max-width: 100%;
   margin: 1.5em auto;
   padding: 0 1em;
-  color: #325288;
+  color: #ECE8D9;
   font-size: 1.15em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
