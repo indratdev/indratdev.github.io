@@ -1,7 +1,7 @@
 /* Colors
-navy: #325288
+navy: #382266
 blue_deep: #325288;
-pink: #ff789e
+pink: #24A19C
 blue: #8d94ba
 */
 
@@ -10,7 +10,7 @@ blue: #8d94ba
 body {
   margin: 0;
   padding: 0;
-  background-color:  #ff789e;
+  background-color:  #24A19C;
   overflow-x: hidden;
 }
 li {
@@ -46,7 +46,7 @@ a {
   width: 100%;
   margin: 0;
   padding: 2em 0 1em;
-  color: #ff789e;
+  color: #24A19C;
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -63,7 +63,7 @@ a {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-color: #ff789e;
+  background-color: #24A19C;
 }
 .title__dot--white {
   background-color: #fff;
@@ -218,7 +218,7 @@ a {
   display: inline-block;
   background-color: #fff;
   padding: 0 15px;
-  color: #ff789e;
+  color: #24A19C;
   font-size: 2.9em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -343,7 +343,7 @@ a {
   min-width: 300px;
   max-width: 560px;
   box-sizing: content-box;
-  background-color: #ff789e;
+  background-color: #24A19C;
   padding: 0 2em 0;
   border-left: 15px solid #8d94ba;
 }
@@ -387,7 +387,7 @@ a {
   max-width: 360px;
   max-height: 360px;
   border-radius: 50%;
-  border: 15px solid #ff789e;
+  border: 15px solid #24A19C;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -601,7 +601,7 @@ a {
 /*** Contact ***/
 .contact {
   padding: 0 0 3em;
-  background-color: #ff789e;
+  background-color: #24A19C;
   text-align: center;
 }
 .contact__description {
