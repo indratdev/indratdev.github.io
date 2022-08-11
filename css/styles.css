@@ -2,8 +2,9 @@
 navy: #382266
 pink: #ff789e
 blue: #8d94ba
-white: #A6D1E6_m;
-blue:  #A6D1E6;
+white: #355764_m;
+blue:  #355764_m;
+green_deep:  #355764;
 */
 
 /***  General styles  ***/
@@ -11,7 +12,7 @@ blue:  #A6D1E6;
 body {
   margin: 0;
   padding: 0;
-  background-color:  #A6D1E6;
+  background-color:  #355764;
   overflow-x: hidden;
 }
 li {
@@ -47,7 +48,7 @@ a {
   width: 100%;
   margin: 0;
   padding: 2em 0 1em;
-  color: #A6D1E6;
+  color: #355764;
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -64,7 +65,7 @@ a {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-color: #A6D1E6;
+  background-color: #355764;
 }
 .title__dot--white {
   background-color: #fff;
@@ -219,7 +220,7 @@ a {
   display: inline-block;
   background-color: #fff;
   padding: 0 15px;
-  color: #A6D1E6;
+  color: #355764;
   font-size: 2.9em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -344,7 +345,7 @@ a {
   min-width: 300px;
   max-width: 560px;
   box-sizing: content-box;
-  background-color: #A6D1E6;
+  background-color: #355764;
   padding: 0 2em 0;
   border-left: 15px solid #8d94ba;
 }
@@ -388,7 +389,7 @@ a {
   max-width: 360px;
   max-height: 360px;
   border-radius: 50%;
-  border: 15px solid #A6D1E6;
+  border: 15px solid #355764;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -602,7 +603,7 @@ a {
 /*** Contact ***/
 .contact {
   padding: 0 0 3em;
-  background-color: #A6D1E6;
+  background-color: #355764;
   text-align: center;
 }
 .contact__description {
