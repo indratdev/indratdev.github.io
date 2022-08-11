@@ -11,7 +11,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 1em 0 0.5em;
-  color: #ff789e;
+  color: #E8F9FD;
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -27,7 +27,7 @@ body {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-color: #ff789e;
+  background-color: #E8F9FD;
 }
 .about-me__title__dot--white {
   background-color: #fff;
@@ -107,7 +107,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),
               0 13px 13px -10px rgba(0,0,0,0.4);
-  border-bottom: 12px solid #ff789e;
+  border-bottom: 12px solid #E8F9FD;
   border-radius: 3px;
   overflow-x: hidden;
 }
@@ -194,7 +194,7 @@ body {
   display: inline-block;
   margin: 0;
   margin-top: 0em;
-  color: #ff789e;
+  color: #E8F9FD;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -205,7 +205,7 @@ body {
 .about-me__skills__middle__description:after {
   content: "";
   width: 10px;
-  border-bottom: 2px solid #ff789e;
+  border-bottom: 2px solid #E8F9FD;
   position: absolute;
   top: 50%;
 }
@@ -226,7 +226,7 @@ body {
   font-weight: 300;
 }
 .about-me__skills__text--accent {
-  color: #ff789e;
+  color: #E8F9FD;
 }
 .about-me__skills__btn {
   display: block;
@@ -240,7 +240,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   border: none;
-  border-bottom: 8px solid #ff789e;
+  border-bottom: 8px solid #E8F9FD;
   border-radius: 3px;
   box-shadow: 0 0 3px -1px rgba(0,0,0,0.4),
               0 13px 13px -10px rgba(0,0,0,0.4);
@@ -298,7 +298,7 @@ body {
   right: 0em;
   display: inline-block;
   padding: 1px 10px;
-  background-color: #ff789e;
+  background-color: #E8F9FD;
   color: #fff;
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -319,7 +319,7 @@ body {
   display: inline-block;
   margin-top: -1em;
   font-size: 1.7em;
-  color: #ff789e;
+  color: #E8F9FD;
 }
 .about-me__more {
   position: absolute;
@@ -357,7 +357,7 @@ body {
   border-bottom-left-radius: 3px;
 }
 .about-me__email {
-  color: #ff789e;
+  color: #E8F9FD;
   font-size: 1.4em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
