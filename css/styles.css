@@ -621,10 +621,13 @@ a {
   border-bottom: 1px solid #fff;
   transition: all 0.1s linear;
 }
+
+
 .contact__envelope {
   background-image: url(../images/envelope.svg);
   background-size: 550px;
   height: 400px;
+  max-width: 918px;
   background-position: 95% 30%;
   background-repeat: no-repeat;
 }
