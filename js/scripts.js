@@ -232,9 +232,9 @@ function onReady() { // Handler when the DOM is fully loaded
         }
       }
       if (button == "ongoogleplay-btn") {
-        portfolioItemSort("on Google Play");
+        portfolioItemSort("ongoogleplay");
       } else if (button == "ongithub-btn") {
-        portfolioItemSort("on Github");
+        portfolioItemSort("ongithub");
       // } else if (button == "illustrations-btn") {
       //   portfolioItemSort("illustration");
       } else if (button == "all-btn") {
