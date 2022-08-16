@@ -231,12 +231,12 @@ function onReady() { // Handler when the DOM is fully loaded
           showElement();
         }
       }
-      if (button == "websites-btn") {
-        portfolioItemSort("website");
-      } else if (button == "apps-btn") {
-        portfolioItemSort("app");
-      } else if (button == "illustrations-btn") {
-        portfolioItemSort("illustration");
+      if (button == "ongoogleplay-btn") {
+        portfolioItemSort("on Google Play");
+      } else if (button == "ongithub-btn") {
+        portfolioItemSort("on Github");
+      // } else if (button == "illustrations-btn") {
+      //   portfolioItemSort("illustration");
       } else if (button == "all-btn") {
         showElement();
       }
