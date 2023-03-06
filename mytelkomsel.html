@@ -78,38 +78,132 @@
   </div>
   <div class="project__container">
    <header class="project__header">
-    <div class="slider">
-      <div>
+    <div class="slider slider-1">
+      <div class="photos">
+        <!-- <img src="https://i.ibb.co/3sQXw31/skate.jpg" class="shown" alt="">
+        <img src="https://i.ibb.co/C92YGtg/shark.jpg" alt="">
+        <img src="https://i.ibb.co/0mkkmG9/fish1.jpg" alt="">
+        <img src="https://i.ibb.co/cNWS2Vy/fish2.jpg" alt=""> -->
         <img src="images/slicingui/mytelkomsel/banner_1_1400.png" srcset="images/slicingui/mytelkomsel/banner_1_800.png 800w,
         images/slicingui/mytelkomsel/banner_1_1200.png 1200w,
         images/slicingui/mytelkomsel/banner_1_1400.png 1400w" sizes="(max-width: 320px) 90vw,
        (max-width: 700px) 90vw,
-       (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
+       (max-width: 1024px) 75vw, 50vw" class="shown" alt="" 
+       />
+       <img src="images/slicingui/mytelkomsel/banner_2_1400.png" srcset="images/slicingui/mytelkomsel/banner_2_800.png 800w,
+       images/slicingui/mytelkomsel/banner_2_1200.png 1200w,
+       images/slicingui/mytelkomsel/banner_2_1400.png 1400w" sizes="(max-width: 320px) 90vw,
+      (max-width: 700px) 90vw,
+      (max-width: 1024px) 75vw, 50vw"  alt="" 
+      />
+        <div class="buttons">
+          <div class="prev"></div>
+          <div class="next"></div>
+        </div>
       </div>
-
-      <div>
-        <img src="images/slicingui/mytelkomsel/banner_2_1400.png" srcset="images/slicingui/mytelkomsel/banner_2_800.png 800w,
-        images/slicingui/mytelkomsel/banner_2_1200.png 1200w,
-        images/slicingui/mytelkomsel/banner_2_1400.png 1400w" sizes="(max-width: 320px) 90vw,
-       (max-width: 700px) 90vw,
-       (max-width: 1024px) 75vw, 50vw" class="project__header__img" alt="header image" />
-      </div>
-      
     </div>
+    <div class="slider slider-2">
+      <div class="photos">
+        <!-- <img src="https://i.ibb.co/3sQXw31/skate.jpg" class="shown" alt="">
+        <img src="https://i.ibb.co/C92YGtg/shark.jpg" alt="">
+        <img src="https://i.ibb.co/0mkkmG9/fish1.jpg" alt="">
+        <img src="https://i.ibb.co/cNWS2Vy/fish2.jpg" alt=""> -->
+        <img src="images/slicingui/mytelkomsel/banner_1_1400.png" srcset="images/slicingui/mytelkomsel/banner_1_800.png 800w,
+        images/slicingui/mytelkomsel/banner_1_1200.png 1200w,
+        images/slicingui/mytelkomsel/banner_1_1400.png 1400w" sizes="(max-width: 320px) 90vw,
+       (max-width: 700px) 90vw,
+       (max-width: 1024px) 75vw, 50vw" class="shown" alt="" 
+       />
+       <img src="images/slicingui/mytelkomsel/banner_2_1400.png" srcset="images/slicingui/mytelkomsel/banner_2_800.png 800w,
+       images/slicingui/mytelkomsel/banner_2_1200.png 1200w,
+       images/slicingui/mytelkomsel/banner_2_1400.png 1400w" sizes="(max-width: 320px) 90vw,
+      (max-width: 700px) 90vw,
+      (max-width: 1024px) 75vw, 50vw"  alt="" 
+      />
+        <div class="buttons">
+          <div class="prev"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+    </div>
+    
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
-        $('.slider').slick({
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,
-          arrows: true,
-          prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-          nextArrow: '<button type="button" class="slick-next">Next</button>'
-        });
-      });
+      $(function() {
+
+new Slider({
+    images: '.slider-1 img',
+    btnPrev: '.slider-1 .buttons .prev',
+    btnNext: '.slider-1 .buttons .next',
+    auto: false
+});
+
+new Slider({
+    images: '.slider-2 img',
+    btnPrev: '.slider-2 .buttons .prev',
+    btnNext: '.slider-2 .buttons .next',
+    auto: true,
+    rate: 2000
+});
+});
+
+
+function Slider(obj) {
+
+this.images = $(obj.images);
+this.auto = obj.auto;
+this.btnPrev = obj.btnPrev;
+this.btnNext = obj.btnNext;
+this.rate = obj.rate || 1000;
+
+var i = 0;
+var slider = this;
+
+// The "Previous" button: to remove the class .shoved, show the previous image and add the .shoved class
+this.prev = function () {
+slider.images.eq(i).removeClass('shown');
+i--;
+
+if (i < 0) {
+  i = slider.images.length - 1;
+}
+
+slider.images.eq(i).addClass('shown');
+}
+
+// The "Next" button: to remove the class .shoved, show the next image and add the .shoved class
+this.next = function () {
+slider.images.eq(i).removeClass('shown');
+i++;
+
+if (i >= slider.images.length) {
+  i = 0;
+}
+
+slider.images.eq(i).addClass('shown');
+}
+
+// To add next and prev functions when clicking the corresponding buttons
+$(slider.btnPrev).on('click', function(){ slider.prev();});
+$(slider.btnNext).on('click', function(){ slider.next();});
+
+// For the automatic slider: this method calls the next function at the set rate
+if (slider.auto)  {
+    setInterval(slider.next, slider.rate);
+}
+};
+      // $(document).ready(function(){
+      //   $('.slider').slick({
+      //     autoplay: true,
+      //     autoplaySpeed: 2000,
+      //     dots: true,
+      //     arrows: true,
+      //     prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+      //     nextArrow: '<button type="button" class="slick-next">Next</button>'
+      //   });
+      // });
     </script>
       
     <!-- <h2 class="project__title project__title--white">MyTelkomsel<span
