@@ -175,3 +175,13 @@ body {
   margin-left: 0.5em;
   margin-right: 0;
 }
+.slider {
+  width: 700px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.slider .photos {
+  position: relative;
+  height: 433px;
+}
