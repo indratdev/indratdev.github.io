@@ -1,5 +1,13 @@
 [
   {
+    "name": "Flutter",
+    "icon": "https://img.icons8.com/color/512/flutter.png"
+  },
+  {
+    "name": "Dart",
+    "icon": "https://img.icons8.com/color/512/dart.png"
+  },
+  {
     "name": "Firebase",
     "icon": "https://img.icons8.com/color/48/000000/firebase.png"
   },
@@ -25,6 +33,7 @@
   },
   {
     "name": "SQL",
-    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    "icon": "https://img.icons8.com/color/512/microsoft-sql-server.png"
   }
 ]
+
