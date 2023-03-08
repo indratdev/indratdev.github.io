@@ -51,7 +51,7 @@ function showProjects(projects) {
           <p>${project.desc}</p>
           <div class="btns">
             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>            
-            <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+            <a href="${project.links.view}" class="btn" ><i class="fas fa-eye"></i> View</a>                        
           </div>
         </div>
       </div>
