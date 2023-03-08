@@ -34,6 +34,25 @@
   {
     "name": "SQL",
     "icon": "https://img.icons8.com/color/48/microsoft-sql-server.png"
+  },
+  {
+    "name": "SQLite",
+    "icon": "https://pics.freeicons.io/uploads/icons/png/946338781551952108-48.png"
+  },
+  {
+    "name": "Git",
+    "icon": "https://img.icons8.com/color/48/git.png"
+  },
+  {
+    "name": "IOS",
+    "icon": "https://img.icons8.com/color/48/ios-logo.png"
+  },
+  {
+    "name": "JSON",
+    "icon": "https://img.icons8.com/color/48/json-download.png"
+  },
+  {
+    "name": "ORACLE",
+    "icon": "https://img.icons8.com/color/48/oracle-logo.png"
   }
 ]
-
