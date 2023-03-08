@@ -10,9 +10,39 @@
     }
   },
   {
-    "name": "Kita Muslim",
-    "desc": "Al-Quran Application with audio, reading and translation along with a collection of prayers and hadiths.",
-    "image": "kita-muslim-banner",
+    "name": "MyTelkomsel",
+    "desc": "MyTelkomsel Slicing UI uses the Flutter Framework which is a display that fits the application. In slicing UI, it is divided into sections for each module",
+    "image": "mytelkomsel-banner",
+    "category": "android",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/instagram-mern"
+    }
+  },
+  {
+    "name": "BMI Calculator",
+    "desc": "The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.",
+    "image": "bmi-banner",
+    "category": "android",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/instagram-mern"
+    }
+  },
+  {
+    "name": "Flutter Notes",
+    "desc": "Notes Application with Flutter",
+    "image": "notes-banner",
+    "category": "android",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/instagram-mern"
+    }
+  },
+  {
+    "name": "News App",
+    "desc": "News app to find news using its API.",
+    "image": "news-banner",
     "category": "android",
     "links": {
       "view": "https://instagramernstack.herokuapp.com/",
