@@ -45,7 +45,7 @@ function showProjects(projects) {
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
-        <h3>${project.name}</h3>
+        <h3>${project.category} - ${project.name}</h3>
         </div>
         <div class="desc">
           <p>${project.desc}</p>

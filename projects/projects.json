@@ -13,7 +13,7 @@
     "name": "MyTelkomsel",
     "desc": "MyTelkomsel Slicing UI uses the Flutter Framework which is a display that fits the application. In slicing UI, it is divided into sections for each module",
     "image": "mytelkomsel-banner",
-    "category": "android",
+    "category": "slicingui",
     "links": {
       "view": "https://instagramernstack.herokuapp.com/",
       "code": "https://github.com/jigar-sable/instagram-mern"
