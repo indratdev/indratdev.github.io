@@ -15,7 +15,7 @@
     "image": "mytelkomsel-banner",
     "category": "slicingui",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
+      "view": "mytelkomsel.html",
       "code": "https://github.com/jigar-sable/instagram-mern"
     }
   },
