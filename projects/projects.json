@@ -11,7 +11,7 @@
   },
   {
     "name": "MyTelkomsel",
-    "desc": "MyTelkomsel Slicing UI uses the Flutter Framework which is a display that fits the application. In slicing UI, it is divided into sections for each module",
+    "desc": "MyTelkomsel Slicing UI uses the Flutter Framework which is a display that fits the application.",
     "image": "mytelkomsel-banner",
     "category": "slicingui",
     "links": {

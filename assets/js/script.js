@@ -256,3 +256,11 @@ srtop.reveal(".experience .timeline .container", { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
+
+/* SCROLL detailcontent */
+srtop.reveal(".detailcontent .content h3", { delay: 200 });
+srtop.reveal(".detailcontent .content .tag", { delay: 200 });
+srtop.reveal(".detailcontent .content p", { delay: 200 });
+srtop.reveal(".detailcontent .content .box-container", { delay: 200 });
+srtop.reveal(".detailcontent .row .image", { delay: 200 });
+// srtop.reveal(".detailcontent .content .resumebtn", { delay: 200 });
