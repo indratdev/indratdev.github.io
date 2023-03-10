@@ -262,5 +262,4 @@ srtop.reveal(".detailcontent .content h3", { delay: 200 });
 srtop.reveal(".detailcontent .content .tag", { delay: 200 });
 srtop.reveal(".detailcontent .content p", { delay: 200 });
 srtop.reveal(".detailcontent .content .box-container", { delay: 200 });
-srtop.reveal(".detailcontent .row .image", { delay: 200 });
 // srtop.reveal(".detailcontent .content .resumebtn", { delay: 200 });
