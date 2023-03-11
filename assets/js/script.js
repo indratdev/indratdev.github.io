@@ -219,6 +219,27 @@ const srtop = ScrollReveal({
   reset: true,
 });
 
+$(window).load(function() {
+  // The slider being synced must be initialized first
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
+ 
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
+});
+
 /* SCROLL HOME */
 srtop.reveal(".home .content h3", { delay: 200 });
 srtop.reveal(".home .content p", { delay: 200 });
