@@ -6,7 +6,7 @@
     "category": "android",
     "links": {
       "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "code": "#"
     }
   },
   {
@@ -16,7 +16,17 @@
     "category": "slicingui",
     "links": {
       "view": "mytelkomsel.html",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "code": "https://github.com/indratdev/clone_telkomsel_app"
+    }
+  },
+  {
+    "name": "Money Application",
+    "desc": "",
+    "image": "moneyapp_banner",
+    "category": "android",
+    "links": {
+      "view": "moneyapp.html",
+      "code": "#"
     }
   },
   {
