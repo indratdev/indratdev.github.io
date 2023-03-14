@@ -5,7 +5,7 @@
     "image": "kita-muslim-banner",
     "category": "android",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
+      "view": "https://play.google.com/store/apps/details?id=com.indratdev.kitamuslim&hl=id",
       "code": "#"
     }
   },
@@ -35,8 +35,8 @@
     "image": "bmi-banner",
     "category": "android",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "view": "#",
+      "code": "#"
     }
   },
   {
@@ -45,8 +45,8 @@
     "image": "notes-banner",
     "category": "android",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "view": "#",
+      "code": "#"
     }
   },
   {
@@ -55,8 +55,8 @@
     "image": "news-banner",
     "category": "android",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "view": "#",
+      "code": "#"
     }
   }
 ]
