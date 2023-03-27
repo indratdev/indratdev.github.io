@@ -75,9 +75,9 @@ document.addEventListener("visibilitychange", function () {
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
-    "Mobile Application Development",
+    "Mobile Application Developer",
     "Application Support Specialist",
-    "Android Development",
+    "Android Developer",
   ],
   loop: true,
   typeSpeed: 50,
@@ -219,24 +219,24 @@ const srtop = ScrollReveal({
   reset: true,
 });
 
-$(window).load(function() {
+$(window).load(function () {
   // The slider being synced must be initialized first
-  $('#carousel').flexslider({
+  $("#carousel").flexslider({
     animation: "slide",
     controlNav: false,
     animationLoop: false,
     slideshow: false,
     itemWidth: 210,
     itemMargin: 5,
-    asNavFor: '#slider'
+    asNavFor: "#slider",
   });
- 
-  $('#slider').flexslider({
+
+  $("#slider").flexslider({
     animation: "slide",
     controlNav: false,
     animationLoop: false,
     slideshow: false,
-    sync: "#carousel"
+    sync: "#carousel",
   });
 });
 
