@@ -20,6 +20,16 @@
     }
   },
   {
+    "name": "M.Tix",
+    "desc": "M.Tix Slicing UI uses the Flutter Framework which is a display that fits the application.",
+    "image": "mtix-home",
+    "category": "slicingui",
+    "links": {
+      "view": "mtix.html",
+      "code": "https://github.com/indratdev/clone_mtix"
+    }
+  },
+  {
     "name": "Money Application",
     "desc": "",
     "image": "moneyapp_banner",
